@@ -1,0 +1,181 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+body {
+	width: 100vw;
+}
+
+ul li {
+	list-style: none;
+}
+
+
+/* ----- HEADER ----- */
+
+
+h1, p {
+	text-align: center;
+}
+
+h1 {
+	margin: 40px 0 10px;
+	letter-spacing: 3px;
+	color: #033956;
+}
+
+header {
+	background: #F8F8F8;
+	padding: 30px 0 20px;
+}
+
+header p {
+	color: #A0A0A0;
+	letter-spacing: 2px;
+}
+
+
+/* ----- HEADER ENDS----- */
+
+main {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+
+/* ----- INTRO STARTS ----- */
+
+img {
+	display: block;
+	width: 90%;
+	height: auto;
+	margin: 30px auto;
+}
+
+.hello {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.location {
+	font-size: 20px;
+	color: #033956;
+	margin-top: 0;
+}
+
+h2, h3 {
+	text-align: center;
+	margin: 30px 30px 20px;
+}
+
+h3 {
+	font-size: 25px;
+	letter-spacing: 2px;
+	color: #033956;
+	font-weight: 300;
+}
+
+p {
+	width: 90%;
+	margin: 0 auto;
+	line-height: 30px;
+}
+
+
+
+/* ----- INTRO ENDS ----- */
+
+/* --- MEDIA QUERY --- */
+@media (min-width: 680px) {
+	p {
+		width: 55%;
+	}
+	img {
+		width: 60%;
+
+	}
+	
+	
+}
+
+hr {
+	height: 0.5px;
+	width: 35%;
+	background-color: #777;
+	margin: 40px auto;
+}
+
+/* ----- ACTUAL STEPS STARTS ----- */
+#actual-steps {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* ----- ACTUAL STEPS ENDS ----- */
+
+#intro, #actual-steps, #contact {
+	margin-top: 30px;
+	}
+
+#contact {
+	background: #033956;
+	padding: 40px;
+	color: #fff;
+}
+h2 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+#contact p {
+	letter-spacing: 2px;
+	margin-top: 20px;
+}
+
+#contact ul {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin: 30px;
+	justify-content: center;
+	}
+#contact a {
+	padding: 0 35px;
+	color: #fff;
+	font-size: 27px;
+}
+
+ol a:visited,
+#contact a:visited {
+	color: #007690;
+}
+
+nav a:hover,
+#contact a:hover {
+	color: #89AFD3;
+}
+ol a:hover {
+	color: 	#D8D8D8;
+}
+a:active {
+	color: #334A52;
+}
+footer {
+	height: 80px;
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+footer p {
+	color: #fff;
+	font-size: 20px; 
+	letter-spacing: 2px;
+	margin: 30px;
+	
+}
